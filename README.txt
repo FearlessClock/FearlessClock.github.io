@@ -1,0 +1,3 @@
+﻿README pour le projet HTML / CSS / JS
+-Pour lancer le site. Ouvrir le ficher Labyrinthe Main.html
+-Après le TD 3 on a encore travaillé sur la partie front end du site web. On a ajouté un système de timer qui fait défile le temps du debut (temps de départ) de la partie jusqu'à ce qu'on finisse le labyrinthe, s'il arrive zero le joueur perd. On a aussi créé des tonneaux d'essence pour remplire notre vaiseaux enfin de ne pas perdre quand on n'a plus d'essence. Et finalement on a ajouté des fantômes pour chasser les joueurs lorsqu'ils se déplacent. Les fantômes se déplacent aléatoirement dans le labyrinthe pour empêcher le joueur d'arriver à la sortie.  

@@ -1,0 +1,48 @@
+﻿<!--
+	(c) Platypus SAS 2015-2016
+	Release version - v2
+	Author - Franck Lepoivre
+	Release date - 2016/02/07 - TP 2 ESILV 2A ACS - Labyrinthes
+-->
+<html>
+<style>
+#main {
+max-with:960px;
+margin:auto;
+}
+
+#contenu {
+margin-left:245px;
+}
+
+#menu  {
+float:left;
+width:240px;
+}
+</style>
+<head>
+	<meta charset="utf-8"/>
+	<title>PLAY</title>
+	<link rel="stylesheet" type="text/css" href="style/laby.css">
+	<script type="text/javascript" src="script/laby.js"></script>
+</head>
+
+<body onkeypress="uniCharCode(event)" onkeydown="uniKeyCode(event)">
+	<div id="main">
+		<div id="menu">
+		    <h3> Joueur n°1 </h3>
+ 			<div id="score" style="width: 100px ; height: 30px ;">Score : 0</div>
+			<br>
+			<div id="HP" style="width: 100px ; height: 30px ;">Essence : 0</div>
+			<br>
+			<div id="timer" style="width: 100px ; height: 30px ;">Time Left : 600 seconds</div>
+		</div>
+
+		<div id="contenu">
+
+			<!--<div id="maze"></div>-->
+			<script>new_game(10, 10);</script>
+			
+		</div>
+	</div>
+</body>

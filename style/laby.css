@@ -1,0 +1,92 @@
+body {
+    /*background-color: #cc99ff;*/
+    /*background-image: url("garden-maze.jpg");*/
+}
+
+/* Texte */
+h1, h2, h3, h4, h5, h6, p, footer {
+	font-family: verdana;
+	/*font-size: 150%;*/
+}
+
+nav {
+    position: fixed;
+    top: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+
+div.maze {
+    position: relative;
+    top: 50px;
+    left: 150px;
+    /*margin: 10px;*/
+    width: 300px;
+    height: 300px;
+    border: dotted;
+    border-color: brown;
+    border-collapse:collapse;
+    border-width: thin;
+}
+
+#board {
+    position: fixed;
+    top:20px;
+}
+
+#user {
+    position: absolute;    
+    background:blue;
+    width: 1px;
+    height: 1px;
+    background: url(Images/rocket.gif) 0 0;
+}
+.fruits {
+    position: absolute;    
+    background:blue;
+    width: 1px;
+    height: 1px;
+    background: url(Images/fuel.png) 0 0;
+}
+.ghost {
+    position: absolute;    
+    background:blue;
+    width: 1px;
+    height: 1px;
+    background: url(Images/ghost.gif) 0 0;
+}
+
+#score {
+    position: absolute;  
+}
+
+div.cell_intersect {
+    position: absolute;
+    background:red;
+    border-radius:50%;
+    /*border: 5px solid;*/
+    width:7px;
+    height:7px;
+}
+
+div.cell {
+    position: absolute;
+    background: white;
+    background: url(Images/stars.png) 0 0;
+    /*text-align: center;*/
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    /*margin: 3em;*/
+    border-collapse:collapse;
+    /*border: 0.25px dotted;*/
+}
+
+div.N { border-top: 5px solid; border-color: red;}
+div.E { border-right: 5px solid; border-color: red;}
+div.S { border-bottom: 5px solid; border-color: red;}
+div.W { border-left: 5px solid;border-color: red; }

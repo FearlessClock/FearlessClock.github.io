@@ -1,0 +1,114 @@
+﻿<!DOCTYPE html>
+<html lang="en-FR">
+
+<SCRIPT LANGUAGE="javascript">
+
+function isDOMRequired() { 
+return false;
+}
+
+function objectTag() {
+return document.body.innerHTML;
+}
+
+</SCRIPT>
+
+<head>
+
+<title>LABYRINTHE</title>
+<meta charset="UTF-8">
+
+<style>
+
+
+a:link    {color:black; background-color:transparent; text-decoration:none}
+a:visited {color:black; background-color:transparent; text-decoration:none}
+a:hover   {color:gray; background-color:transparent; text-decoration:none}
+a:active  {color:gray; background-color:transparent; text-decoration:none}
+
+header {
+    background-color:black;
+    color:white;
+    text-align:center;
+	font-family:courier;
+    padding:5px; 
+}
+
+nav {
+    line-height:30px;
+    background-color:#eeeeee;
+	text-align:center;
+	font-family:courier;
+    padding:5px; 
+}
+	
+footer {
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+	font-family:courier;
+    padding:5px; 
+	text:strong;
+	overflow: hidden;
+}
+
+iframe {
+    line-height:30px;
+    background-color:#eeeeee;
+	fo-align-align:center;
+	font-family:courier;
+    padding:5px; 
+}
+
+.relative {
+	right: 20px;
+}
+
+#main {
+max-with:960px;
+margin:auto;
+}
+
+#contenu {
+margin-left:245px;
+}
+
+#menu  {
+float:left;
+width:240px;
+}
+	
+</style>
+</head>
+
+<body style="background-color:#eeeeee;">
+	<header> 
+		<h1>LABYRINTHE</h1> 
+	</header>
+	<nav>
+		<h2> 
+			 <a href="regles.html" target="laby">	Règle du jeu	-</a> 
+			 <a href="Labyrinthe.html" target="laby">	Lancement d'une partie	-</a>
+			 <a href="Labyrinthe.html" target="laby">	Rejoindre une partie en cours	-</a>
+			 <a href="scores.html" target="laby">	Meilleurs Scores	</a>
+
+		</h2>
+	</nav>
+	<center>
+		<br>
+			<iframe src="Labyrinthe.html" name="laby" width="99%" height="500px" style="border:5px solid grey;" > </iframe>
+	</center>
+	<br>
+	<div class="relative">
+		<input type="submit" name="Fermer" value="Quitter" onClick="window.close()">
+	</div>
+	<br>
+	<br>
+	<footer>
+
+		<p> Rocky Rockets </p>
+
+	</footer>
+
+</body>
